@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>compuer guesses my number!</title>
+  </head>
+  <body>
+    <div class="range">
+      <h1>pick a number</h1>
+      <h2>give me a range of numbers</h2>
+      <label for="rangeOfNumbers">min</label>
+      <input id="minInput" type="number" /><br />
+      <label for="rangeOfNumbers">max</label>
+      <input id="maxInput" type="number" /><br />
+      <button id="subBtn">submit</button>
+    </div>
+
+    <div class="question hide">
+      <h2>Computer's guess is</h2>
+      <p class="showguess">first Number</p>
+      <h2>Is your number more ↑ or is it less ↓</h2>
+      <button id="b1">↑</button>
+      <button id="b2">↓</button>
+      <button id="yay">yay</button>
+    </div>
+    <div class="finish hide">
+      <h2>ur number was</h2>
+      <p class="showguess">a Number</p>
+      <button id="again">again</button>
+    </div>
+  </body>
+</html>

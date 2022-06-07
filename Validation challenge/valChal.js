@@ -143,33 +143,3 @@ form.addEventListener('input', checkFunc)
 submit.addEventListener('click', submitFunc)
 submit.addEventListener('keydown', (event) => { if (event.keyCode === 13) submitFunc(event) })
 
-/* 
-Name: required, maxLength: 20
-
-PhoneNumber: required, start with 0 or +98
-
-Username: required, minLength:8, maxLength: 12, only start with alphabet, just english alphabet and numbers, can use -_
-
-Email: right format
-
-
-tel: right format
- */
-
-
-
-
-
-/* 
-
-  // focus/unfocus required forms so they show errors 
-
-  requiredForms.forEach(elem => { console.log(elem.children[1]); elem.children[1].focus(); elem.children[1].blur() });
-
-  // focus first empty elem 
-  allForms.some(elem => {
-    if (!elem.children[1].value) elem.children[1].focus();
-    if (!elem.children[1].value) return true; else return false
-  })
-
- */
